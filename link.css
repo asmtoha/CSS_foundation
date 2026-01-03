@@ -1,0 +1,18 @@
+a{
+  font-size: 100px;;
+  color: tomato;
+}
+a:visited{
+  color: black;
+}
+a:hover{
+  color: aqua;
+}
+a:active{
+  color: green;
+  font-weight: bolder;
+}
+a:focus{
+  color:blue;
+  font-size: small;
+}
