@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+
+div{
+    width: 400px;
+    height:400px;
+}
+
+/*default*//*wont work in static mode.*/
+.static{
+    background-color: aqua; 
+    position: static;
+    top: 70px; 
+}
+
+.relative{
+    background-color: blue;
+    position: relative;
+    top: 70px; 
+}
+.relative-child-abs{
+    background-color: red;
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    
+}
+.fixed{
+    background-color: blueviolet;
+    height: 50px;
+    width: 50px;
+    position:fixed;
+    right:0px;
+    top:0px;
+}
+.sticky{
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+    position: sticky;
+    top: 0;
+}
