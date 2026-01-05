@@ -1,0 +1,26 @@
+.box{
+    height: 200px;
+    width: 200px;
+    font-size: 22px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    background-color: tomato;
+    /* cover extra space */
+    flex-grow: 1;
+    /* can minimise space */
+    flex-shrink: 1;
+    
+}
+
+.container{
+    border: 1px solid green;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+}
